@@ -1,0 +1,13 @@
+.lk-vocab {
+	padding: 25px;
+	border-radius: 4px;
+	background: #f2f2f2;
+}
+
+.lk-word {
+	font-weight: bold;
+}
+
+.lk-definition {
+	font-size: .9em;
+}
