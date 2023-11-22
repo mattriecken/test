@@ -7,7 +7,11 @@ var MYLIBRARY = MYLIBRARY || (function(){
             // some other initialising
         },
         helloWorld : function() {
-            alert('Hello World! -' + _args[0]);
+			let div = document.createElement('div');
+			div.classList.add('lk-test');
+			let text = document.createTextNode('Hey this is my new paragraph.' + _args[0]);
+			div.appendChild(text);
+			document.body.appendChild(div);
         }
     };
 }());
